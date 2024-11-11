@@ -1,0 +1,28 @@
+
+body {
+
+    background-color: rgb(157, 255, 255);
+    height: 3000px;
+    width: 794px;
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+.nojob {
+
+    background-color: rgb(228, 77, 77);
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.jobpost {
+
+    margin-left: 10px;
+}
+
+h1 {
+
+    margin-left: 10px;
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="topNews.css">
+</head>
+<body>
+      
+   
+
+     <div id="mysidepanel" class="sidepanel">
+
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="/index.html" class="sidebar"><p class="sidep">home</p></a>
+        <a href="/sidebar/privacyPolicy.html" class="sidebar"><p class="sidep">privacy policy</p></a>
+        <a href="/sidebar/contacts.html" class="sidebar"><p class="sidep">contacts</p></a>
+        <a href="/sidebar/about.html" class="sidebar"><p class="sidep">about</p></a>
+
+
+
+
+      </div>
+
+    <div class="three-divs">
+
+
+        <div class="top-div">
+            <div class="menu" onclick="openNav()">
+
+                <div class="mnu"></div>
+                <div class="mnu"></div>
+                <div class="mnu"></div>
+             </div>
+            <h1 class="index-topic">GAUTENG CONNECTIONS</h1>
+        </div>
+        
+       
+        <div class="news-div">
+             
+            <a href="topNews.html"><button class="news-btn">Top</button></a>
+            <a href="sportsNews.html" ><button class="news-btn">Sports</button></a>
+            <a href="crimeNews.html"><button id="top-news-btn">Crime</button></a>
+            <a href="politicalNews.html"><button class="news-btn">Polical</button></a>
+         
+         
+         
+         
+ 
+     </div>
+         
+
+
+     </div> 
+
+     <div id="crime-news-div">
+             
+             <a href="" class="tpnews"></a>
+             <a href="" class="tpnews"></a>
+             <a href="" class="tpnews"></a>
+             <a href="" class="tpnews"></a>
+             <a href="" class="tpnews"></a>
+             <a href="" class="tpnews"></a>
+             <a href="" class="tpnews"></a>
+             <a href="" class="tpnews"></a>
+            
+          
+
+     </div> 
+    
+
+     <script>
+
+        function openNav() {
+
+          document.getElementById('mysidepanel').style.width = "600px";
+           
+           }
+
+       function closeNav() {
+          
+          document.getElementById('mysidepanel').style.width = "0px";
+       }
+     </script>
+</body>
+</html>
